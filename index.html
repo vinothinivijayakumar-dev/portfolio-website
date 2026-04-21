@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <title>V Vinothini | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <h2>V Vinothini</h2>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="#">V VINOTHINI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    <li class="nav-item d-flex align-items-center ms-2">
+                        <button id="themeToggle" class="theme-toggle">
+                            <span id="themeIcon" class="theme-icon"></span>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-md-12 text-center text-lg-start">
+                    <h1 class="fw-bold mb-3">Hi, I'm <span class="text-primary">V Vinothini</span></h1>
+                    <h4 class="typing-text mb-2"></h4>
+                    <p class="lead description">Building clean, interactive, and responsive web experiences.</p>
+                    <div class="mt-3">
+                        <a href="#projects" class="btn btn-primary me-3">View Projects</a>
+                        <a href="assets/Vinothini V-Resume.pdf" class="btn btn-outline-primary" target="_blank">View
+                            Resume</a>
+                    </div>
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+                    <img src="assets/profile.jpg" alt="Vinothini" class="hero-img img-fluid rounded-circle shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="text-center mb-4" data-aos="fade-down">
+                <h2 class="fw-bold text-primary">About Me</h2>
+                <div class="underline mx-auto mb-3"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+
+                    <p class="lead" data-aos="fade-up" data-aos-delay="100">
+                        Hi, I’m <span class="fw-semibold text-primary">V Vinothini</span>, a passionate
+                        <span class="fw-semibold">Full Stack Web Developer</span> who enjoys building
+                        clean, responsive, and user-friendly web applications.
+
+                        I specialize in creating modern web interfaces using technologies like
+                        HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.
+                    </p>
+
+                    <p class="lead" data-aos="fade-up" data-aos-delay="200">
+                        I love transforming ideas into real-world web solutions and continuously
+                        learning new technologies to improve my development skills and build
+                        better digital experiences.
+                    </p>
+
+                    <div class="tech-marquee-wrapper" data-aos="zoom-in" data-aos-delay="300">
+                        <p class="fw-semibold mb-1">Here are a few technologies I work with:</p>
+                        <div class="tech-marquee">
+
+                            <button class="btn btn-outline-primary btn-sm">HTML</button>
+                            <button class="btn btn-outline-primary btn-sm">CSS</button>
+                            <button class="btn btn-outline-primary btn-sm">JavaScript</button>
+                            <button class="btn btn-outline-primary btn-sm">React</button>
+                            <button class="btn btn-outline-primary btn-sm">Node.js</button>
+                            <button class="btn btn-outline-primary btn-sm">Express</button>
+                            <button class="btn btn-outline-primary btn-sm">MongoDB</button>
+
+                            <!-- DUPLICATE (same again) -->
+                            <button class="btn btn-outline-primary btn-sm">HTML</button>
+                            <button class="btn btn-outline-primary btn-sm">CSS</button>
+                            <button class="btn btn-outline-primary btn-sm">JavaScript</button>
+                            <button class="btn btn-outline-primary btn-sm">React</button>
+                            <button class="btn btn-outline-primary btn-sm">Node.js</button>
+                            <button class="btn btn-outline-primary btn-sm">Express</button>
+                            <button class="btn btn-outline-primary btn-sm">MongoDB</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="section-title mb-4 text-primary" data-aos="fade-down">Education</h2>
+            <p class="text-muted mb-5" data-aos="fade-up" data-aos-delay="100">My academic background and professional
+                learning journey.</p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- College -->
+                <div class="col-md-5" data-aos="fade-right" data-aos-delay="200">
+                    <div class="education-card p-4 shadow-sm rounded d-flex flex-column align-items-center h-100">
+                        <div class="icon mb-3">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <h5 class="fw-bold mb-1">Gandhi Arts and Science College</h5>
+                        <p class="text-muted mb-2">Affiliated to Bharathiar University</p>
+                        <p class="text-primary fw-semibold">B.Com Computer Applications | 2022 - 2025</p>
+                    </div>
+                </div>
+
+                <!-- Full Stack Course -->
+                <div class="col-md-5" data-aos="fade-left" data-aos-delay="300">
+                    <div class="education-card p-4 shadow-sm rounded d-flex flex-column align-items-center h-100">
+                        <div class="icon mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h5 class="fw-bold mb-1">Pumo Technovation</h5>
+                        <p class="text-muted mb-2">Full Stack Training Institute</p>
+                        <p class="text-primary fw-semibold">Full-Stack Web Development | 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECT SECTION -->
+    <section id="featured" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary mb-4" data-aos="fade-down">Featured Project</h2>
+                <p class="text-muted mb-5" data-aos="fade-up" data-aos-delay="100">
+                    Showcasing my advanced project demonstrating performance, scalability, and user experience.
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-7 mb-4 mb-lg-0 mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+
+                        <h3 class="fw-bold mb-3 d-flex align-items-center justify-content-center gap-2">
+                            <i class="bi bi-gift text-primary"></i>
+                            Gift Builder E-Commerce Platform
+                        </h3>
+
+                        <div class="featured-text text-center">
+
+                            <p class="text-muted small mb-1">
+                                A full-featured e-commerce platform for personalized gift creation and delivery
+                            </p>
+
+                            <p class="text-muted small mb-1">
+                                Built with secure authentication and scalable architecture
+                            </p>
+
+                            <p class="text-muted small mb-1">
+                                Includes cart, wishlist, and seamless order management for user experience
+                            </p>
+
+                            <p class="text-muted small">
+                                Designed with a fully responsive and user-friendly interface
+                            </p>
+
+                        </div>
+
+                        <div class="tech-stack d-flex justify-content-center flex-wrap gap-2">
+
+                            <span class="tech-badge">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    alt="React" /> React
+                            </span>
+
+                            <span class="tech-badge">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                    alt="Node.js" /> Node.js
+                            </span>
+
+                            <span class="tech-badge">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                                    alt="Express" /> Express
+                            </span>
+
+                            <span class="tech-badge">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                    alt="MongoDB" /> MongoDB
+                            </span>
+
+                        </div>
+
+                        <div class="d-flex justify-content-center flex-wrap gap-2">
+                            <a href="https://giftbuilder.netlify.app/login" target="_blank" class="btn btn-primary">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/Mern-GiftBuilder-Project"
+                                target="_blank" class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-primary position-relative d-inline-block" data-aos="fade-down">My Projects</h2>
+            <p class="text-muted mb-5" data-aos="fade-up" data-aos-delay="100">Here are some of the projects I’ve built
+                with passion and creativity.
+            </p>
+
+            <!-- FILTER BUTTONS -->
+            <div class="project-filter d-flex justify-content-center flex-wrap gap-2">
+                <button class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="frontend">Frontend</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="ui">UI</button>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="fullstack" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-gift text-primary me-2"></i>
+                            Gift Builder E-Commerce Platform
+                        </h5>
+
+                        <p class="text-muted small mb-3">
+                            A full-stack MERN application with user authentication, cart, wishlist,
+                            selected items, and order placement features. Responsive design.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://giftbuilder.netlify.app/login" target="_blank" class="btn btn-primary">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/Mern-GiftBuilder-Project"
+                                target="_blank" class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="frontend" data-aos="zoom-in"
+                    data-aos-delay="200">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-window-stack text-primary me-2"></i>
+                            Personal Portfolio Website
+                        </h5>
+                        <p class="text-muted small mb-3">
+                            A personal portfolio website designed to showcase projects, skills, and contact
+                            details with a clean UI and fully responsive layout.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://vinothini-portfolio-web.netlify.app/" target="_blank"
+                                class="btn btn-primary">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/my-portfolio" target="_blank"
+                                class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="frontend" data-aos="zoom-in"
+                    data-aos-delay="300">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-house-door text-primary me-2"></i>
+                            Responsive Furniture Website
+                        </h5>
+                        <p class="text-muted small mb-3">
+                            A modern furniture platform featuring cart, wishlist, secure login, checkout, and fully
+                            responsive seamless shopping user experience.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://modern-furniera-proj.netlify.app/" target="_blank"
+                                class="btn btn-primary">Live
+                                Demo</a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/furniture-web-proj" target="_blank"
+                                class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="frontend" data-aos="zoom-in"
+                    data-aos-delay="400">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-cup-hot text-primary me-2"></i>
+                            Responsive Coffee Website
+                        </h5>
+                        <p class="text-muted small mb-3">
+                            A stylish and responsive coffee website with smooth navigation and UI,
+                            designed to deliver an engaging and modern user experience.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://coffee-web-proj.netlify.app/" target="_blank" class="btn btn-primary">Live
+                                Demo</a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/Coffee-Project" target="_blank"
+                                class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="ui" data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-bag-heart text-primary me-2"></i>
+                            Summer Wear Section Template
+                        </h5>
+                        <p class="text-muted small mb-3">
+                            A trendy and responsive fashion section built with Bootstrap,
+                            showcasing modern layout and visually appealing product presentation.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://modosun-fashions.netlify.app/" target="_blank" class="btn btn-primary">Live
+                                Demo</a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/ModoSun-Fashions" target="_blank"
+                                class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-5 mb-4 project-item project-show" data-category="frontend" data-aos="zoom-in"
+                    data-aos-delay="600">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-people text-primary me-2"></i>
+                            Employee Management System
+                        </h5>
+                        <p class="text-muted small mb-3">
+                            A responsive web application to manage employee data with features like adding,
+                            deleting, and organizing records through intuitive interface.
+                        </p>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://employee-management-system-proj.netlify.app/" target="_blank"
+                                class="btn btn-primary">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/vinothinivijayakumar-dev/employee-management-system"
+                                target="_blank" class="btn btn-primary">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-primary position-relative d-inline-block" data-aos="fade-down">My Skills</h2>
+            <p class="text-muted mb-5" data-aos="fade-up" data-aos-delay="100">
+                Technologies and tools I work with to build creative and efficient web solutions.
+            </p>
+
+            <div class="row justify-content-center">
+                <!-- Frontend -->
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <h5 class="fw-bold skill-title mb-3">Frontend</h5>
+                    <div class="skills-group">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML" />
+                            HTML
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS" />
+                            CSS
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JS" />
+                            JavaScript
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React" />
+                            React
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <h5 class="fw-bold skill-title mb-3">Backend</h5>
+                    <div class="skills-group">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js" />
+                            Node.js
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                                alt="Express" />
+                            Express
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                alt="MongoDB" />
+                            MongoDB
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <h5 class="fw-bold skill-title mb-3">Tools</h5>
+                    <div class="skills-group">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                alt="Git" />
+                            Git
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" />
+                            GitHub
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                alt="VS Code" />
+                            VS Code
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES SECTION -->
+    <section id="certificates" class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-primary position-relative d-inline-block" data-aos="fade-down">Certificates
+            </h2>
+            <p class="text-muted mb-5" data-aos="fade-up" data-aos-delay="100">Here are some of my certifications that
+                showcase my learning journey and skills.
+            </p>
+
+            <div class="row justify-content-center">
+                <!-- Certificate 1 -->
+                <div class="col-md-5 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2">
+                            <i class="bi bi-award text-primary me-2"></i>
+                            Full-Stack Web Development
+                        </h5>
+
+                        <p class="text-muted small mb-3">
+                            Pumo Technovation
+                        </p>
+
+                        <span class="badge bg-success px-3 py-2 rounded-pill">
+                            Completed Training
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="col-md-5 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2"><i class="bi bi-code-slash text-primary me-2"></i>HTML & CSS Bootcamp
+                        </h5>
+                        <p class="text-muted small mb-3">LetsUpgrade</p>
+                        <a href="assets/HTMLCSS-Certif.jpg" target="_blank" class="btn btn-modern">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="col-md-5 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2"><i class="bi bi-gear text-primary me-2"></i>JavaScript for Beginners
+                        </h5>
+                        <p class="text-muted small mb-3">Simplilearn SkillUp</p>
+                        <a href="assets/JS-Certif.pdf" target="_blank" class="btn btn-modern">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="col-md-5 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="p-4 border rounded-4 shadow-sm h-100">
+                        <h5 class="fw-bold mb-2"><i class="bi bi-globe text-primary me-2"></i>Introduction to Front-End
+                            Development</h5>
+                        <p class="text-muted small mb-3">Simplilearn SkillUp</p>
+                        <a href="assets/FE-Certif.pdf" target="_blank" class="btn btn-modern">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Left side -->
+                <div class="col-md-5 mb-4 text-center text-md-start" data-aos="fade-right" data-aos-delay="200">
+                    <h2 class="fw-bold text-primary position-relative d-inline-block" data-aos="fade-down">Let's Connect
+                    </h2>
+                    <p class="text-muted mt-3" data-aos="fade-up" data-aos-delay="100">
+                        I’m always open to discussing new opportunities, creative ideas, and exciting projects.
+                        Let’s create something amazing together!
+                    </p>
+                </div>
+
+                <!-- Right side -->
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                    <div class="contact-card p-4 rounded-4 shadow-sm">
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bi bi-person-fill"></i>
+                            <span class="fw-semibold">Vinothini Vijayakumar</span>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="150">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <span>Full Stack Web Developer</span>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>The Nilgiris, Tamil Nadu, India</span>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="250">
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:vinothinivijayakumar123@gmail.com">vinothinivijayakumar123@gmail.com</a>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="tel:+917448369034">+91 74483 69034</a>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="350">
+                            <i class="bi bi-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/vinothinivijayakumar"
+                                target="_blank">linkedin.com/in/vinothinivijayakumar</a>
+                        </div>
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-github"></i>
+                            <a href="https://github.com/vinothinivijayakumar-dev"
+                                target="_blank">github.com/vinothinivijayakumar-dev</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer py-4">
+        <div
+            class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+
+            <!-- Left -->
+            <div class="footer-left mb-3 mb-md-0">
+                <h5 class="fw-bold mb-0">VINOTHINI VIJAYAKUMAR</h5>
+                <small>Full Stack Web Developer</small>
+            </div>
+
+            <!-- Center -->
+            <div class="social-icons d-flex justify-content-center align-items-center gap-3 mb-3 mb-md-0">
+                <div class="icon-wrapper linkedin">
+                    <a href="https://www.linkedin.com/in/vinothinivijayakumar" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                        <span class="tooltip-text">LinkedIn</span>
+                    </a>
+                </div>
+                <div class="icon-wrapper github">
+                    <a href="https://github.com/vinothinivijayakumar-dev" target="_blank">
+                        <i class="bi bi-github"></i>
+                        <span class="tooltip-text">GitHub</span>
+                    </a>
+                </div>
+                <div class="icon-wrapper email">
+                    <a href="mailto:vinothinivijayakumar123@gmail.com">
+                        <i class="bi bi-envelope"></i>
+                        <span class="tooltip-text">Email</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="footer-right">
+                <small>&copy; 2025 | Built with HTML, CSS, JavaScript & Bootstrap</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="btn btn-primary rounded-circle">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed.js for typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
