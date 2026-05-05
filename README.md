@@ -98,15 +98,14 @@ cd portfolio-website
 ## Project Structure
 
 ```
-portfolio-website/
-├── index.html          # Main HTML file
-├── style.css           # Custom CSS styles & animations
-├── script.js           # JavaScript for interactivity
+portfolio-web/
+├── index.html                  # Main HTML file
+├── style.css                   # Custom CSS styles & animations
+├── script.js                   # JavaScript for interactivity
 ├── assets/
-│   ├── profile.jpg     # Profile photo
-│   ├── resume.pdf      # Resume file
-│   └── ...             # Certificate images & other assets
-└── README.md           # Project documentation
+│   ├── profile.jpg             # Profile photo
+│   ├── Vinothini V-Resume.pdf  # Resume file
+│   └── ...                     # Certificate images & other assets
 ```
 
 ---
